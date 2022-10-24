@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+h1 {
+    
+    margin: 1rem auto;
+    font-size: 50px;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.table {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.square {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 4rem;
+	height: 4rem;
+	background-color: sandybrown;
+}
+
+.fizz {
+   	background-color: rgb(206, 105, 18);
+}
+
+.buzz {
+   	background-color: rgb(148, 124, 104);
+}
+
+.fizzbuzz {
+	background-color: rgb(58, 43, 30);
+}
